@@ -1,0 +1,171 @@
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 10%;
+}
+td {
+    border: 1px solid rgb(7, 139, 216);
+    text-align: center;
+    padding: 2px;
+}
+thead tr {
+    background-color: grey;
+}
+th {
+    border: 1px solid rgb(44, 43, 43);
+}
+ul {
+    display: inline;
+    text-decoration: none;
+}
+input[type="checkbox"], input[type="radio"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgb(7, 139, 216);
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+input[type="checkbox"] {
+    border-radius: 0px !important;
+}
+input[type="radio"]:checked::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(7, 139, 216);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 50%;
+}
+.form-control {
+    display: block;
+    border: 1px solid rgb(7, 139, 216);
+    border-radius: 1px;
+    padding: 1px 3px;
+    margin: 2px;
+    cursor: pointer;
+    width: 30%;
+}
+.form-label {
+    margin-bottom: 1px;
+}
+.info {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding-top: 30px;
+}
+.personal {
+    margin: 0;
+    padding-top: 8px;
+    width: 150px;
+    display: block;
+    margin-left: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.food {
+    display: flex;
+    gap: 40px;
+}
+.form-check {
+    display: flex;
+    gap: 45px;
+    align-items: baseline;
+}
+.favorite {
+    margin: 0;
+    width: 150px;
+    display: block;
+    margin-left: 30px;
+}
+.btn {
+    display: block;
+    margin: 20px auto; 
+    padding: 5px 15px;
+    border: 1px solid rgb(7, 139, 216); 
+    background-color: rgb(7, 139, 216);
+    color: azure;
+    border-radius: 3%;
+}
+.btn:hover {
+    color: azure;
+    background-color: rgb(4, 86, 180);
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+.nav-links li a:hover {
+    color: rgb(7, 139, 216);
+}
+.nav-links a.active {
+    color: rgb(7, 139, 216) !important;
+    text-decoration: none !important;
+}
+.nav-bar {
+    padding-bottom: 30px;
+}
+
+h4 {
+    text-align: center;
+}
+.alert.alert-info {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 15px;
+    border: 1px solid rgb(7, 139, 216);
+    background-color: rgb(7, 139, 216);
+    color: azure;
+    border-radius: 3%;
+    width: fit-content;
+    text-align: center;
+}
+.alert.alert-info:hover {
+    background-color: rgb(4, 86, 180);
+    color: azure;
+    cursor: default;
+}
+a.btn.btn-secondary.mt-3 {
+    display: block !important;
+    margin: 20px auto !important; 
+    padding: 5px 15px !important;
+    border: 1px solid rgb(7, 139, 216) !important; 
+    background-color: rgb(7, 139, 216) !important;
+    color: azure !important;
+    border-radius: 3% !important;
+    width: fit-content !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+a.btn.btn-secondary.mt-3:hover {
+    color: azure !important;
+    background-color: rgb(4, 86, 180) !important;
+}
+
